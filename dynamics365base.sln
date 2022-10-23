@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics365-Logic", "Dynamics365-Logic", "{A177457E-1B93-4C8F-B085-637F464404C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics365-Data", "Dynamics365-Data", "{D27D624E-EBC0-4DB5-9708-69137950CB2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics365-Model", "Dynamics365-Model", "{B0744995-3ABA-47FB-AFF0-76234C03FB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.DATA", "D365.DATA\D365.DATA.csproj", "{E6623754-EE1E-4B8C-A837-BE6489E2977B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.LOGIC", "D365.LOGIC\D365.LOGIC.csproj", "{7A24B219-222C-41F0-8FBF-C8EC91886C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.MODEL", "D365.MODEL\D365.MODEL.csproj", "{8A73073C-5454-4947-B3FD-A55405DDFA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics365-xUnitTest", "Dynamics365-xUnitTest", "{AC4F0125-D149-467D-89D8-42E064BFBFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.XUnitTest", "D365.XUnitTest\D365.XUnitTest.csproj", "{56B10446-6B91-4826-95CA-29C5E714CE25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6623754-EE1E-4B8C-A837-BE6489E2977B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6623754-EE1E-4B8C-A837-BE6489E2977B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6623754-EE1E-4B8C-A837-BE6489E2977B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6623754-EE1E-4B8C-A837-BE6489E2977B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A24B219-222C-41F0-8FBF-C8EC91886C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A24B219-222C-41F0-8FBF-C8EC91886C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A24B219-222C-41F0-8FBF-C8EC91886C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A24B219-222C-41F0-8FBF-C8EC91886C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A73073C-5454-4947-B3FD-A55405DDFA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A73073C-5454-4947-B3FD-A55405DDFA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A73073C-5454-4947-B3FD-A55405DDFA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A73073C-5454-4947-B3FD-A55405DDFA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B10446-6B91-4826-95CA-29C5E714CE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B10446-6B91-4826-95CA-29C5E714CE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B10446-6B91-4826-95CA-29C5E714CE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B10446-6B91-4826-95CA-29C5E714CE25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6623754-EE1E-4B8C-A837-BE6489E2977B} = {D27D624E-EBC0-4DB5-9708-69137950CB2E}
+		{7A24B219-222C-41F0-8FBF-C8EC91886C77} = {A177457E-1B93-4C8F-B085-637F464404C4}
+		{8A73073C-5454-4947-B3FD-A55405DDFA2D} = {B0744995-3ABA-47FB-AFF0-76234C03FB2D}
+		{56B10446-6B91-4826-95CA-29C5E714CE25} = {AC4F0125-D149-467D-89D8-42E064BFBFD5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC4F10FF-0B83-4C89-879C-0A9034E8A3F3}
+	EndGlobalSection
+EndGlobal
