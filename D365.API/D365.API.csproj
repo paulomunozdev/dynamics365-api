@@ -162,8 +162,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -252,6 +251,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D365.DATA\D365.DATA.csproj">
+      <Project>{E6623754-EE1E-4B8C-A837-BE6489E2977B}</Project>
+      <Name>D365.DATA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\D365.LOGIC\D365.LOGIC.csproj">
+      <Project>{7A24B219-222C-41F0-8FBF-C8EC91886C77}</Project>
+      <Name>D365.LOGIC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\D365.MODEL\D365.MODEL.csproj">
+      <Project>{8A73073C-5454-4947-B3FD-A55405DDFA2D}</Project>
+      <Name>D365.MODEL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -114,6 +114,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountLogic.cs" />
     <Compile Include="ExampleClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
